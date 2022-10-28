@@ -1,0 +1,21 @@
+:root {
+    --primary-Dark: hsl(158, 36%, 37%);
+    --primary-Cream: hsl(30, 38%, 92%);
+    --Dark-grayish: hsl(228, 12%, 48%);
+    --neutro-Very-dark: hsl(212, 21%, 14%);
+    --neutro-White: hsl(0, 0%, 100%);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  main {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-Cream);
+  }
